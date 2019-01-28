@@ -69,5 +69,6 @@ to reboot your Pi.
 To check that it's installed correctly, type:
 python
 import cv2
-cv2.<two underscores>verion<two underscores>
-(it wont let me do double underscores without making it bold and ignoring them)
+cv2.version
+surround version with __ it just wont let me do that here without making it bold
+
