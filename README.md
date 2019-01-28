@@ -5,6 +5,8 @@ This tutorial assumes you are using Raspian Stretch, Raspian version 9.
 
 It will only cover installing and compiling OpenCV, so if you need python or anything like that, you must find how to do so elsewhere. This information used in this is from here: https://www.alatortsev.com/2018/09/05/installing-opencv-3-4-3-on-raspberry-pi-3-b/
 
+All code is to be typed in a terminal.
+
 ## First Steps
 
 Install needed dependancies with the following commands:
@@ -67,8 +69,8 @@ sudo reboot
 to reboot your Pi.
 
 To check that it's installed correctly, type:
-python
-import cv2
-cv2.version
+python /
+import cv2 /
+cv2.version /
 surround version with __ it just wont let me do that here without making it bold
 
