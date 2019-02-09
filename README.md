@@ -8,14 +8,17 @@ Move into directory where scripts are located.
 The install-dependencies script uses apt-get, if your system does not support that it will not work(raspian does by default)
 
 to run it, use it as follows:
+```
 ./install-dependancies 
-
+```
 
 The download-OpenCV script will download OpenCV on your machine. It will throw errors if install-dependancies is not run first.
 
 Run it as follows:
-
-./install-OpenCV <version of OpenCV that you want(for example 3.4.5)> <(optional) number of cores you want to use it to run it(the more cores you use the faster it will compile)>
+```
+./install-OpenCV <version of OpenCV that you want(for example 3.4.5)> <(optional) number of cores you want to use it to run 
+```
+it(the more cores you use the faster it will compile)>
 
 Reasons to use it: you want to build OpenCV with specific cmake parameters
 
@@ -28,6 +31,8 @@ The install-all script will get everything set up, so you can skip right to deve
 
 To run it use the following:
 
-./install all <desired OpenCV version> <number of cores you want to use to make>
+```
+./install-all <desired OpenCV version> <number of cores you want to use to make>
+```
 
 to test, open the python idle with "python" and type "import cv2", then run "cv2.\__version__"
