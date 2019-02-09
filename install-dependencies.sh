@@ -8,5 +8,5 @@ sudo apt-get install libxvidcore-dev libx264-dev &&
 echo "fourth batch completed"
 sudo apt-get install libgtk2.0-dev libgtk-3-dev &&
 echo "fifth batch completed"
-sudo apt-get install libatlas-base-dev gfortran 
+sudo apt-get install libatlas-base-dev gfortran &&
 echo "all dependencies installed"
