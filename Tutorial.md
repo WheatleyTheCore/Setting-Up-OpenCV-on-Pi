@@ -71,6 +71,5 @@ to reboot your Pi.
 To check that it's installed correctly, type:
 python /
 import cv2 /
-cv2.version /
-surround version with __ it just wont let me do that here without making it bold
+cv2.\__version__
 
