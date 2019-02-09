@@ -28,6 +28,6 @@ The install-all script will get everything set up, so you can skip right to deve
 
 To run it use the following:
 
-install all <desired OpenCV version> <number of cores you want to use to make>
+./install all <desired OpenCV version> <number of cores you want to use to make>
 
 to test, open the python idle with "python" and type "import cv2", then run "cv2.\__version__"
