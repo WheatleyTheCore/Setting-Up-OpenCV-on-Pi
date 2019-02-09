@@ -2,7 +2,7 @@
 
 ./install-dependencies.sh &&
 
-./install-OpenCV.sh $1 &&
+./download-OpenCV.sh $1 &&
 
 cd $PWD/opencv-$1
 mkdir build
