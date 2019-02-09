@@ -19,4 +19,4 @@ then
 else
   make
 fi
-
+echo "all done!"
