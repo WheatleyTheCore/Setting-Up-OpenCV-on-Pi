@@ -1,8 +1,8 @@
 #!/bin/bash
 
-./install-dependencies &&
+./install-dependencies.sh &&
 
-./install-OpenCV $1 &&
+./install-OpenCV.sh $1 &&
 
 cd $PWD/opencv-$1
 mkdir build
