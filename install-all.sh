@@ -1,6 +1,6 @@
 #!/bin/bash
 
-./install-dependancies &&
+./install-dependencies &&
 
 ./install-OpenCV $1 &&
 
