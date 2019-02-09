@@ -36,7 +36,9 @@ To run it use the following:
 ```
 
 to test, open the python idle with 
-```python``` 
+```
+python
+``` 
 and type 
 ```
 import cv2
