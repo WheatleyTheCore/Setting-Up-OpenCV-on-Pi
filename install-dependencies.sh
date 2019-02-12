@@ -1,5 +1,5 @@
-sudo apt-get update
-sudo apt-get upgrade
+sudo apt-get update -y &&
+sudo apt-get upgrade -y &&
 sudo apt-get install build-essential cmake pkg-config -y &&
 echo "first batch completed"
 sudo apt-get install libjpeg-dev libtiff5-dev libjasper-dev libpng12-dev -y &&
