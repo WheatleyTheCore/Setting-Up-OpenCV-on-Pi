@@ -1,6 +1,6 @@
 # This is a tool to automate installing OpenCV on Raspberry Pi.
 ## It has been developed and tested on Raspian Stretch(Raspian version 9) on a Raspberry Pi Model 3, but should work on most if not all others
-### It will not install OpenCV in respect to python or java, you will still be able to run it with python, however as well as most other languages, for example C++(which is recommended for speed, as Raspberry Pis don't have much computing power)
+### It will not install OpenCV for python or Java, but C++ definitely works.
 
 ### Running the scripts independantly
 Move into directory where scripts are located.
